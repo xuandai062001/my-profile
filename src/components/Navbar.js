@@ -25,7 +25,7 @@ const checkNavbarValue = () => {
                 <div class={styles.typewriter}>I'm Front end Developer</div>
             </div>
             <ul>
-                <li style={{border: navbar === "my_profile" ? '1px solid red' : '', color: navbar === "my_profile" ? 'red' : '',}} onClick={() => setNavbar("my_profile")}>My Profile</li>
+                <li style={{border: navbar === "my_profile" ? '1px solid red' : '', color: navbar === "my_profile" ? 'red' : '',}} onClick={() => setNavbar("my_profile")}>My Profile dai</li>
                 <li style={{border: navbar === "my_project" ? '1px solid red' : '', color: navbar === "my_project" ? 'red' : '',}}  onClick={() => setNavbar("my_project")}>My Project</li>
             </ul>
         </div>
