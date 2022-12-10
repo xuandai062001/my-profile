@@ -118,7 +118,6 @@ const MyProfile = () => {
         <div className={styles.infor}>
           <h1>My Information</h1>
           <div className={styles.item}><span className={styles.label}>Name :</span> <span>{my_infor.fullName}</span></div>
-          <div className={styles.item}><span className={styles.label}>NickName :</span> <span>{my_infor.nickName}</span></div>
           <div className={styles.item}><span className={styles.label}>Phone Number :</span> <span>{my_infor.phoneNumber}</span></div>
           <div className={styles.item}><span className={styles.label}>College :</span> <span>{my_infor.University}</span></div>
           <div className={styles.item}>

@@ -1,6 +1,5 @@
 export const my_infor = {
-    fullName:"Nguyễn Xuân Đại",
-    nickName:"David Nguyen",
+    fullName:"David Nguyen",
     phoneNumber:"0328199325",
     facebookLink: "https://www.facebook.com/xuandai06",
     University: "HungVuong University"
