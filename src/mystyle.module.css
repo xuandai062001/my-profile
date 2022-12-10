@@ -1,0 +1,152 @@
+.navbar{
+    display: flex;
+    padding: 0 50px;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    position: relative;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+}
+
+.navbar ul li{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid blue;
+    color: blue;
+}
+
+.navbar ul li:first-child{
+    margin-right: 20px;
+}
+
+.navbar ul li:hover{
+    border: 1px solid red;
+    color: red;
+}
+
+.navbar .logo{
+    cursor: pointer;
+}
+.intro_text{
+    display: flex;
+    align-items: center;
+}
+.typewriter {
+	width: 21.5ch;
+	white-space: nowrap;
+	overflow: hidden;
+	border-right: 4px solid #212121;
+	animation: cursor 1s step-start infinite, 
+    text 5s steps(18) alternate infinite;
+    font-size: 25px;
+    color: red;
+}
+
+@keyframes cursor {
+	0%, 100% { 
+    border-color: #212121; 
+  }
+}
+
+@keyframes text {
+	0% { 
+    width: 0; 
+  }
+	100% { 
+    width: 21.5ch; 
+  }
+}
+@media screen and (max-width: 767px) {
+    .intro_text{
+        display: none;
+    }
+
+    .navbar{
+        display: flex;
+        padding: 0 20px;
+        justify-content: space-between;
+        background-color: antiquewhite;
+    }
+
+    .navbar ul li{
+        font-size: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+        cursor: pointer;
+        padding: 5px 10px;
+        border-radius: 20px;
+        border: 1px solid blue;
+        color: blue;
+    }
+
+    .navbar .logo img{
+        cursor: pointer;
+        width: 70px;
+    }
+
+    .navbar{
+        margin-bottom: 40px;
+    }
+ 
+    .intro_text{
+        bottom: -30px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+    .typewriter {
+     
+        font-size: 15px;
+
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    .navbar{
+        margin-bottom: 70px;
+    }
+ 
+    .intro_text{
+        bottom: -50px;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+
+     
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+ 
+    
+     
+}
+
+
+
+

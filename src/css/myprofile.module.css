@@ -1,0 +1,212 @@
+.profile{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    max-width: 1280px;
+    border: 1px solid #b9e6fa;
+    padding: 20px;
+    border-radius: 20px;
+   
+}
+
+.profile .leftContent{
+    display: flex;
+    width: 50%;
+}
+.profile .rightContent{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+}
+
+.avatar{
+    color: aliceblue;
+}
+
+.avatar{
+    display: block;
+    width: 30%;
+}
+
+.infor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+   
+}
+
+.infor h1{
+   margin: 0;
+   padding: 0;
+   margin-bottom: 10px;
+}
+
+.infor .item{
+    display: flex;
+    margin-bottom: 10px;
+    color: blue;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.infor .item:hover{
+   color: red;
+}
+
+.infor .item .label{
+    margin-right: 10px;
+}
+
+.infor .item i{
+    margin-right: 20px;
+}
+
+.avatar img{
+    width: 100%;
+    border-radius: 100%;
+    border: 1px solid red;
+}
+
+.progressScore{
+    background-color: blue;
+    height: 100%;
+    border-radius: 20px;
+    transition: 2s ease 0.3s;
+}
+
+
+.rightContent .item{
+    display: flex;
+    margin-bottom: 10px;
+    
+}
+.rightContent .item .progress_bar{
+    width: 80%;
+    background-color: antiquewhite;
+    border-radius: 20px;
+}
+
+
+.rightContent .item .label{
+    width: 20%;
+}
+
+
+.rightContent .my_skills button{
+    color: blue;
+    background-color: white;
+    border: 1px solid blue;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+   
+}
+
+.rightContent .my_skills button:first-child{
+    margin-right: 20px;
+}
+
+.rightContent .my_skills button:hover{
+    color:red;
+    border: 1px solid red;
+}
+
+
+.rightContent .my_skills h1{
+    margin: 0;
+    padding: 0;
+}
+
+.rightContent .item .label{
+    color: blue;
+    font-size: 20px;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 767px) {
+    .profile{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profile .leftContent{
+        display: flex;
+        width: 100%;
+    }
+    .profile .rightContent{
+        display: flex;
+        width: 100%;
+       
+    }
+    .infor .item{    
+        font-size: 12px;
+    }
+
+    .infor h1{
+        font-size: 20px;
+     }
+    .rightContent .my_skills h1{
+        font-size: 20px;
+    }
+    .rightContent .item .progress_bar{
+        width: 70%;
+        background-color: antiquewhite;
+        border-radius: 20px;
+    }
+    
+    .rightContent .item .label{
+        width: 30%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+    .infor .item{    
+        font-size: 12px;
+    }
+
+    .infor h1{
+        font-size: 20px;
+     }
+    .rightContent .my_skills h1{
+        font-size: 20px;
+    }
+    .rightContent .item .progress_bar{
+        width: 70%;
+        background-color: antiquewhite;
+        border-radius: 20px;
+    }
+    
+    .rightContent .item .label{
+        width: 30%;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+    .rightContent{
+        margin-left: 20px;
+     }
+
+    .rightContent .item .progress_bar{
+        width: 75%;
+        background-color: antiquewhite;
+        border-radius: 20px;
+    }
+    
+    
+    .rightContent .item .label{
+        width: 25%;
+    }
+}
+
+
+@media screen and (max-width: 1280px) {
+    .profile{
+        margin: 0 20px;
+    }
+}
